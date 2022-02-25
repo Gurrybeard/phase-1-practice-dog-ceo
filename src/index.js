@@ -42,7 +42,7 @@ function loadBreeds(){
         })
        });
 }
-//reminder: might need to remove lis before adding them so function can repeat
+
 function loadAllBreeds(dogar,ul){
     ul.innerHTML=""
     dogar.forEach(element => {
